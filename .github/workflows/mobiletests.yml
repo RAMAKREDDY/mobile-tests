@@ -8,6 +8,7 @@ jobs:
   build:
     name: Run API
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Build API
         run: e2e:mobile:plpSorting3

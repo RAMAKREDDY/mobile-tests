@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build API
-        run: npm install
+        run: e2e:mobile:plpSorting3
 
           
    

@@ -13,3 +13,13 @@ jobs:
         run: |
           echo "Build API"
           sleep 10s
+          
+   
+  build2:
+    name: Run API-2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build API
+        run: |
+          echo "Build API"
+          sleep 10s
